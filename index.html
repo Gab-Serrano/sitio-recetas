@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="cabecera">
-        <img class="cabecera__imagen" src="assets/img/hot-spot-logo.svg" alt="Logo sitio web Hot Spot">
+        <img class="cabecera__logo" src="assets/img/hot-spot-logo.svg" alt="Logo sitio web Hot Spot">
         <nav class="cabecera__menu">
             <ul class="menu__lista">
                 <li class="menu__lista__item">Inicio</li>
@@ -22,15 +22,17 @@
         </nav>
     </header>
     <section class="banner">
+        
         <div class="banner__imagen">
-            <h1 class="banner__titulo">Recetas con todo el sabor de Tailandia</h1>
+            <div class="overlay"></div>
         </div>
+        <h1 class="banner__titulo">Recetas con todo el sabor de Tailandia</h1>        
     </section>
     <section class="container-recetas">
         <h1 class="container-recetas__titulo">Recetas populares</h1>
         <div class="container-recetas__tarjeta">
             <h2 class="recetas__tarjeta__titulo">Pad Thai</h2>
-            <img src="assets/img/recetas__tarjeta__imagen/pad-thai.jpg" alt="Pad Thai" class="recetas__tarjeta__imagen">
+            <div class="recetas__tarjeta__imagen"></div>
             <p class="recetas__tarjeta__descripcion">El Pad Thai es seguramente uno de los platos de la cocina tailandesa que más popular se ha hecho en occidente. Consiste en tallarines de arroz salteados con pollo, gambas o tofu y condimentado con salsa de pescado, salsa de soja, huevo, lima, chile y azúcar. Suelen servirse con cacahuetes troceados por encima.</p>
             <button type="submit" class="recetas__tarjeta__boton"><a href="http://">Ver receta</a></button>
         </div>
@@ -53,5 +55,10 @@
             <button type="submit" class="recetas__tarjeta__boton"><a href="http://">Ver receta</a></button>
         </div>
     </section>
+    <footer class="pie-pagina">
+        <div class="pie-pagina__img">
+            <img src="assets/img/hot-spot-logo.svg" alt="Hot Spot logo">
+        </div>
+    </footer>
 </body>
 </html>

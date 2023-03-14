@@ -1,0 +1,95 @@
+/* 
+Colores:
+    Amarillo: #ffc500
+    Rojo: #ff4830
+    negro: #000000
+*/
+
+body{
+    background-color: #ff4830;
+}
+
+.cabecera {
+    display: flex;
+    height: 20vh;
+    padding: 0 2rem;
+    justify-content: space-between;
+}
+
+.cabecera__menu {
+    display: flex;
+    width: 75%;
+    align-content: center;
+}
+
+.menu__lista {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu__lista__item {
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.banner {
+    height: 85vh;
+}
+
+.banner__imagen {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/banner/banner-bg-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 42%;
+}
+
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.banner__titulo {
+    color: white;
+    width: 100%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    font-size: 3rem;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+}
+
+.container-recetas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100wv;
+    padding: 2rem 2rem;
+}
+
+.container-recetas__titulo{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.container-recetas__tarjeta{
+    background-color: #ffc500;
+    width: 30%;
+    margin: 1rem;
+}
+
+.recetas__tarjeta__imagen{
+    background-image: url(../img/recetas__tarjeta__imagen/pad-thai.jpg) cover;
+}
